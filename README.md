@@ -15,6 +15,12 @@ rails db:migrate
 rails db:seed
 ```
 
+#### run the test cases
+
+```
+bundle exec rspec spec/
+```
+
 #### Notes:
 
 - I have created lots of file but only written request specs because of time constaint.
