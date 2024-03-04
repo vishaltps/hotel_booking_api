@@ -1,25 +1,24 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### Versions
 
-Things you may want to cover:
+Ruby: 3.3.0
+Rails: 7.1.3
 
-* Ruby version
+#### Setup application
 
-* System dependencies
+```
+bundle install
+rails db:create
+rails db:migrate
+rails db:seed
+```
 
-* Configuration
+#### Notes:
 
-* Database creation
+- I have created lots of file but only written request specs because of time constaint.
+- I can do much better if i had more time.
 
-* Database initialization
+#### TODO:
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# hotel_booking_api
+- [] Use serailizer instead of default response
