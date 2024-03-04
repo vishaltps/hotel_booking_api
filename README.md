@@ -3,6 +3,7 @@
 #### Versions
 
 Ruby: 3.3.0
+
 Rails: 7.1.3
 
 #### Setup application
