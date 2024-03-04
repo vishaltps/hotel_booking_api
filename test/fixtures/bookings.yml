@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_name: MyString
+  no_of_rooms: 1
+  check_in_date: 2024-03-03
+  check_out_date: 2024-03-03
+  hotel: one
+  user: one
+
+two:
+  user_name: MyString
+  no_of_rooms: 1
+  check_in_date: 2024-03-03
+  check_out_date: 2024-03-03
+  hotel: two
+  user: two
